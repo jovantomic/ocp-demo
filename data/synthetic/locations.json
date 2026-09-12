@@ -1,0 +1,98 @@
+[
+  {
+    "id": "S01",
+    "name": "Kochi approach",
+    "lon": 76.1,
+    "lat": 9.8,
+    "kind": "ocean",
+    "region": "Arabian Sea"
+  },
+  {
+    "id": "S02",
+    "name": "Mumbai offshore",
+    "lon": 72.6,
+    "lat": 18.5,
+    "kind": "ocean",
+    "region": "Arabian Sea"
+  },
+  {
+    "id": "S03",
+    "name": "Chennai approach",
+    "lon": 80.6,
+    "lat": 13,
+    "kind": "ocean",
+    "region": "Bay of Bengal"
+  },
+  {
+    "id": "S04",
+    "name": "Colombo corridor",
+    "lon": 79.6,
+    "lat": 6.6,
+    "kind": "ocean",
+    "region": "Indian Ocean"
+  },
+  {
+    "id": "S05",
+    "name": "Malacca passage",
+    "lon": 100.2,
+    "lat": 3.2,
+    "kind": "ocean",
+    "region": "Strait of Malacca"
+  },
+  {
+    "id": "S06",
+    "name": "Singapore approach",
+    "lon": 104.1,
+    "lat": 1.2,
+    "kind": "ocean",
+    "region": "Singapore Strait"
+  },
+  {
+    "id": "S07",
+    "name": "Bangkok supply cluster",
+    "lon": 100.6,
+    "lat": 13.7,
+    "kind": "supply",
+    "region": "Thailand"
+  },
+  {
+    "id": "S08",
+    "name": "Osaka auction hub",
+    "lon": 135.5,
+    "lat": 34.7,
+    "kind": "supply",
+    "region": "Japan"
+  },
+  {
+    "id": "S09",
+    "name": "Guangzhou breeder cluster",
+    "lon": 113.3,
+    "lat": 23.1,
+    "kind": "supply",
+    "region": "China"
+  },
+  {
+    "id": "S10",
+    "name": "Chennai distribution",
+    "lon": 80.3,
+    "lat": 13.1,
+    "kind": "supply",
+    "region": "India"
+  },
+  {
+    "id": "S11",
+    "name": "Singapore inventory",
+    "lon": 103.8,
+    "lat": 1.35,
+    "kind": "supply",
+    "region": "Singapore"
+  },
+  {
+    "id": "S12",
+    "name": "Taipei ornamental hub",
+    "lon": 121.5,
+    "lat": 25,
+    "kind": "supply",
+    "region": "Taiwan"
+  }
+]

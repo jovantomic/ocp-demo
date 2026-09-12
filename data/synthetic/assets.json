@@ -1,0 +1,98 @@
+[
+  {
+    "id": "RANCHU",
+    "name": "Ranchu · Grade A",
+    "category": "Goldfish",
+    "unit": "USD / fish",
+    "base": 185,
+    "exposure": 1,
+    "vol": 0.013,
+    "venue": "Osaka ornamental auction · fictional",
+    "tag": "JP / SELECT BREED",
+    "description": "Standardised adult Ranchu, grade A. Simulated completed sales, not asking prices."
+  },
+  {
+    "id": "ORANDA",
+    "name": "Oranda · Red cap",
+    "category": "Goldfish",
+    "unit": "USD / fish",
+    "base": 92,
+    "exposure": 0.75,
+    "vol": 0.011,
+    "venue": "Bangkok ornamental exchange · fictional",
+    "tag": "TH / RED CAP",
+    "description": "Standardised adult red-cap Oranda. All lots, counterparties and prices are synthetic."
+  },
+  {
+    "id": "RYUKIN",
+    "name": "Ryukin · Calico",
+    "category": "Goldfish",
+    "unit": "USD / fish",
+    "base": 125,
+    "exposure": 0.6,
+    "vol": 0.016,
+    "venue": "Singapore aquatic auction · fictional",
+    "tag": "SG / CALICO",
+    "description": "Fixed-grade calico Ryukin. Pricing relationships are engineered for interface testing."
+  },
+  {
+    "id": "PLGC",
+    "name": "Pelagic Logistics",
+    "category": "Equities",
+    "unit": "USD / share",
+    "base": 64,
+    "exposure": 0.35,
+    "vol": 0.012,
+    "venue": "SIMEX · fictional equity",
+    "tag": "FICTIONAL COMPANY",
+    "description": "Invented logistics company and ticker. No real company exposure or investment recommendation."
+  },
+  {
+    "id": "AQUA",
+    "name": "Aquora Holdings",
+    "category": "Equities",
+    "unit": "USD / share",
+    "base": 38,
+    "exposure": -0.55,
+    "vol": 0.017,
+    "venue": "SIMEX · fictional equity",
+    "tag": "FICTIONAL COMPANY",
+    "description": "Invented ornamental-fish distributor. Supply-cost sensitivity is a simulation assumption."
+  },
+  {
+    "id": "NAMI",
+    "name": "Nami Coldchain",
+    "category": "Equities",
+    "unit": "USD / share",
+    "base": 112,
+    "exposure": 0.22,
+    "vol": 0.01,
+    "venue": "SIMEX · fictional equity",
+    "tag": "FICTIONAL COMPANY",
+    "description": "Invented cold-chain operator. Demo-only instrument, with no real issuer."
+  },
+  {
+    "id": "USDINR",
+    "name": "US Dollar / Indian Rupee",
+    "category": "FX",
+    "unit": "INR / USD",
+    "base": 84.2,
+    "exposure": 0.04,
+    "vol": 0.0015,
+    "venue": "Simulated FX reference",
+    "tag": "SYNTHETIC FX",
+    "description": "Real currency names, entirely synthetic quotes. Maritime sensitivity is a toy hypothesis."
+  },
+  {
+    "id": "EURUSD",
+    "name": "Euro / US Dollar",
+    "category": "FX",
+    "unit": "USD / EUR",
+    "base": 1.085,
+    "exposure": -0.03,
+    "vol": 0.002,
+    "venue": "Simulated FX reference",
+    "tag": "SYNTHETIC FX",
+    "description": "Synthetic FX series for cross-market exploration. Not a market feed."
+  }
+]

@@ -1,0 +1,7 @@
+copernicusmarine>=2.0,<3
+cdsapi>=0.7,<1
+argopy>=1.0,<2
+earthaccess>=0.14,<1
+xarray>=2025.1
+netCDF4>=1.7,<2
+h5netcdf>=1.4,<2

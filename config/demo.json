@@ -1,0 +1,7 @@
+{
+  "mode": "synthetic",
+  "seed": 20260912,
+  "dataset_directory": "data/synthetic",
+  "live_execution_enabled": false,
+  "disclosure": "All market prices, vessels, transactions, sensor observations and predictive relationships are synthetic. No real alpha established."
+}

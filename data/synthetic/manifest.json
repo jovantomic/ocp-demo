@@ -1,0 +1,20 @@
+{
+  "name": "OCP synthetic research dataset",
+  "version": "1.0.0",
+  "seed": 20260912,
+  "synthetic": true,
+  "generated_from": "Deterministic toy process; no live providers",
+  "start": "2026-03-17",
+  "end": "2026-09-12",
+  "days": 180,
+  "disclosure": "All prices, observations, events, vessels and results are synthetic. Predictive relationships are engineered. No trained model, real alpha, live trade or company endorsement.",
+  "counts": {
+    "assets": 8,
+    "days": 180,
+    "prices": 1440,
+    "sensors": 2160,
+    "transactions": 2160,
+    "vessels": 2160,
+    "events": 24
+  }
+}

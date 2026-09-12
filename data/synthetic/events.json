@@ -1,0 +1,218 @@
+[
+  {
+    "id": "EV-0",
+    "date": "2026-03-17",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-9",
+    "date": "2026-03-26",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-18",
+    "date": "2026-04-04",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-27",
+    "date": "2026-04-13",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-36",
+    "date": "2026-04-22",
+    "severity": "watch",
+    "title": "Supply recovery observed",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-45",
+    "date": "2026-05-01",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-54",
+    "date": "2026-05-10",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-63",
+    "date": "2026-05-19",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-70",
+    "date": "2026-05-26",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S11",
+    "synthetic": true
+  },
+  {
+    "id": "EV-72",
+    "date": "2026-05-28",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-81",
+    "date": "2026-06-06",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-85",
+    "date": "2026-06-10",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S08",
+    "synthetic": true
+  },
+  {
+    "id": "EV-90",
+    "date": "2026-06-15",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-99",
+    "date": "2026-06-24",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-105",
+    "date": "2026-06-30",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-108",
+    "date": "2026-07-03",
+    "severity": "watch",
+    "title": "Supply recovery observed",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-117",
+    "date": "2026-07-12",
+    "severity": "watch",
+    "title": "Supply recovery observed",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-126",
+    "date": "2026-07-21",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-135",
+    "date": "2026-07-30",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-144",
+    "date": "2026-08-08",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-153",
+    "date": "2026-08-17",
+    "severity": "elevated",
+    "title": "Breeder inventory tightens",
+    "detail": "Synthetic supply constraint across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  },
+  {
+    "id": "EV-158",
+    "date": "2026-08-22",
+    "severity": "elevated",
+    "title": "Breeder inventory tightens",
+    "detail": "Synthetic supply constraint across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S09",
+    "synthetic": true
+  },
+  {
+    "id": "EV-162",
+    "date": "2026-08-26",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S07",
+    "synthetic": true
+  },
+  {
+    "id": "EV-171",
+    "date": "2026-09-04",
+    "severity": "watch",
+    "title": "Regional flow divergence",
+    "detail": "Synthetic market observation across the ornamental supply chain. Scenario evidence, not a real-world incident.",
+    "location_id": "S10",
+    "synthetic": true
+  }
+]

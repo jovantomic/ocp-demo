@@ -1,0 +1,443 @@
+{
+  "defaults": {
+    "timeoutMs": 20000,
+    "attempts": 3,
+    "maxResponseBytes": 25000000
+  },
+  "sources": {
+    "open-meteo": {
+      "enabled": true,
+      "locations": [
+        {
+          "id": "S01",
+          "lat": 9.8,
+          "lon": 76.1
+        },
+        {
+          "id": "S02",
+          "lat": 18.5,
+          "lon": 72.6
+        },
+        {
+          "id": "S03",
+          "lat": 13,
+          "lon": 80.6
+        },
+        {
+          "id": "S04",
+          "lat": 6.6,
+          "lon": 79.6
+        },
+        {
+          "id": "S05",
+          "lat": 3.2,
+          "lon": 100.2
+        },
+        {
+          "id": "S06",
+          "lat": 1.2,
+          "lon": 104.1
+        }
+      ],
+      "forecastDays": 2
+    },
+    "ecb": {
+      "enabled": true,
+      "startDate": "{startDate}",
+      "endDate": "{endDate}",
+      "currencies": [
+        "USD",
+        "INR",
+        "JPY",
+        "THB",
+        "SGD",
+        "CNY"
+      ]
+    },
+    "obis": {
+      "enabled": true,
+      "query": {
+        "scientificname": "Sardinella longiceps"
+      },
+      "pageSize": 100,
+      "maxPages": 2
+    },
+    "gbif": {
+      "enabled": true,
+      "query": {
+        "scientificName": "Carassius auratus",
+        "hasCoordinate": true,
+        "country": "IN"
+      },
+      "pageSize": 100,
+      "maxPages": 2
+    },
+    "gdacs": {
+      "enabled": true,
+      "startDate": "{startDate}",
+      "endDate": "{endDate}",
+      "pageSize": 100,
+      "maxPages": 2,
+      "query": {
+        "country": "IND"
+      }
+    },
+    "comtrade": {
+      "enabled": false,
+      "period": "2024",
+      "reporterCode": 699,
+      "cmdCode": "030111",
+      "flowCode": "X",
+      "maxRecords": 500
+    },
+    "estat": {
+      "enabled": false,
+      "statsDataId": null,
+      "metric": "fishery_statistic",
+      "timeMapping": {}
+    },
+    "gfw": {
+      "enabled": false,
+      "startDate": "{startDate}",
+      "endDate": "{endDate}",
+      "datasets": [
+        "public-global-fishing-events:latest"
+      ],
+      "pageSize": 100,
+      "maxPages": 2
+    },
+    "gfw-vessels": {
+      "enabled": false,
+      "search": "7831410",
+      "pageSize": 50,
+      "maxPages": 2
+    },
+    "aisstream": {
+      "enabled": false,
+      "boundingBoxes": [
+        [
+          [
+            0.9,
+            103.5
+          ],
+          [
+            1.5,
+            104.5
+          ]
+        ]
+      ],
+      "durationSeconds": 30,
+      "maxMessages": 1000
+    },
+    "erddap": {
+      "enabled": false,
+      "server": "https://coastwatch.noaa.gov/erddap/",
+      "mode": "griddap",
+      "datasetId": "noaacwBLENDEDCsstDaily",
+      "query": "analysed_sst[(2024-01-01T12:00:00Z)][(9.8)][(76.1)]",
+      "variables": [
+        "analysed_sst"
+      ],
+      "licenceRef": "https://coastwatch.noaa.gov/erddap/info/noaacwBLENDEDCsstDaily/index.html",
+      "kind": "analysis",
+      "qualityFlags": [
+        "satellite-blended-analysis"
+      ]
+    },
+    "copernicus": {
+      "enabled": false,
+      "datasetId": "cmems_mod_glo_phy-thetao_anfc_0.083deg_P1D-m",
+      "variables": [
+        "thetao"
+      ],
+      "kind": "forecast",
+      "subset": {
+        "minimum_longitude": 75.9,
+        "maximum_longitude": 76.2,
+        "minimum_latitude": 9.6,
+        "maximum_latitude": 10.0,
+        "minimum_depth": 0,
+        "maximum_depth": 1,
+        "start_datetime": "{endDate}",
+        "end_datetime": "{endDate}"
+      },
+      "licenceRef": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "maxObservations": 10000
+    },
+    "era5": {
+      "enabled": false,
+      "datasetId": "reanalysis-era5-single-levels",
+      "variables": [
+        "t2m",
+        "u10",
+        "v10",
+        "msl",
+        "tp"
+      ],
+      "kind": "reanalysis",
+      "request": {
+        "product_type": [
+          "reanalysis"
+        ],
+        "variable": [
+          "2m_temperature",
+          "10m_u_component_of_wind",
+          "10m_v_component_of_wind",
+          "mean_sea_level_pressure",
+          "total_precipitation"
+        ],
+        "year": [
+          "2024"
+        ],
+        "month": [
+          "01"
+        ],
+        "day": [
+          "01"
+        ],
+        "time": [
+          "00:00"
+        ],
+        "data_format": "netcdf",
+        "download_format": "unarchived",
+        "area": [
+          10,
+          75.75,
+          9.5,
+          76.25
+        ]
+      },
+      "licenceRef": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+      "maxObservations": 10000
+    },
+    "argo": {
+      "enabled": false,
+      "region": [
+        75,
+        77,
+        8,
+        11,
+        0,
+        100,
+        "2024-01-01",
+        "2024-01-07"
+      ],
+      "variables": [
+        "TEMP",
+        "PSAL",
+        "PRES"
+      ],
+      "licenceRef": "https://argo.ucsd.edu/data/data-faq/",
+      "maxObservations": 10000
+    },
+    "nasa-ocean": {
+      "enabled": false,
+      "shortName": "MODISA_L3m_CHL_NRT",
+      "variables": [
+        "chlor_a"
+      ],
+      "startDate": "{startDate}",
+      "endDate": "{endDate}",
+      "boundingBox": [
+        75,
+        8,
+        77,
+        11
+      ],
+      "maxGranules": 1,
+      "maxObservations": 10000,
+      "licenceRef": "https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-and-information-policy",
+      "datasetVersion": "2022.0"
+    },
+    "india-news": {
+      "enabled": true,
+      "onlyRelevant": true,
+      "topics": {
+        "fisheries": [
+          "fish",
+          "fishing",
+          "fisheries",
+          "aquaculture",
+          "shrimp",
+          "prawn",
+          "seafood",
+          "ornamental fish"
+        ],
+        "ports": [
+          "port",
+          "ports",
+          "shipping",
+          "vessel",
+          "vessels",
+          "maritime",
+          "container",
+          "freight"
+        ],
+        "weather": [
+          "monsoon",
+          "cyclone",
+          "flood",
+          "flooding",
+          "storm"
+        ],
+        "trade": [
+          "fish export",
+          "seafood export",
+          "fish imports",
+          "fishing ban"
+        ],
+        "regions": [
+          "Kochi",
+          "Cochin",
+          "Chennai",
+          "Mumbai",
+          "Visakhapatnam",
+          "Kerala",
+          "Tamil Nadu"
+        ]
+      },
+      "feeds": [
+        {
+          "name": "PIB India",
+          "url": "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+          "licenceRef": "https://www.pib.gov.in/ViewRss.aspx?lang=1&reg=3"
+        },
+        {
+          "name": "The Indian Express \u2014 India",
+          "url": "https://indianexpress.com/section/india/feed/",
+          "licenceRef": "https://indianexpress.com/rss/",
+          "restrictions": [
+            "personal-noncommercial-feed"
+          ]
+        },
+        {
+          "name": "Economic Times",
+          "url": "https://economictimes.indiatimes.com/rssfeeds/13352306.cms",
+          "licenceRef": "https://economictimes.indiatimes.com/rss_index.cms",
+          "restrictions": [
+            "personal-noncommercial-feed"
+          ]
+        },
+        {
+          "name": "The Hindu",
+          "enabled": false,
+          "url": "https://www.thehindu.com/feeder/default.rss",
+          "licenceRef": "https://www.thehindu.com/termsofuse/",
+          "restrictions": [
+            "access-and-reuse-unverified"
+          ]
+        }
+      ]
+    },
+    "fao-fishstat": {
+      "enabled": false,
+      "file": null,
+      "datasetId": null,
+      "licenceRef": null,
+      "format": "csv",
+      "timeFormat": "year",
+      "mapping": {
+        "entityId": "species",
+        "time": "year",
+        "metrics": [
+          {
+            "column": "value",
+            "name": "reported_value",
+            "unit": null
+          }
+        ]
+      }
+    },
+    "eumofa": {
+      "enabled": false,
+      "file": null,
+      "datasetId": null,
+      "licenceRef": null,
+      "format": "csv",
+      "timeFormat": "year",
+      "mapping": {
+        "entityId": "species",
+        "time": "year",
+        "metrics": [
+          {
+            "column": "value",
+            "name": "reported_value",
+            "unit": null
+          }
+        ]
+      }
+    },
+    "noaa-landings": {
+      "enabled": false,
+      "file": null,
+      "datasetId": null,
+      "licenceRef": null,
+      "format": "csv",
+      "timeFormat": "year",
+      "mapping": {
+        "entityId": "species",
+        "time": "year",
+        "metrics": [
+          {
+            "column": "value",
+            "name": "reported_value",
+            "unit": null
+          }
+        ]
+      }
+    },
+    "incois": {
+      "enabled": false,
+      "file": null,
+      "datasetId": null,
+      "licenceRef": null,
+      "format": "csv",
+      "timeFormat": "year",
+      "mapping": {
+        "entityId": "species",
+        "time": "year",
+        "metrics": [
+          {
+            "column": "value",
+            "name": "reported_value",
+            "unit": null
+          }
+        ]
+      }
+    },
+    "gfw-effort": {
+      "enabled": false,
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-02",
+      "timeoutMs": 110000,
+      "attempts": 1,
+      "geojson": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.8,
+              9.5
+            ],
+            [
+              76.1,
+              9.5
+            ],
+            [
+              76.1,
+              10
+            ],
+            [
+              75.8,
+              10
+            ],
+            [
+              75.8,
+              9.5
+            ]
+          ]
+        ]
+      }
+    }
+  }
+}

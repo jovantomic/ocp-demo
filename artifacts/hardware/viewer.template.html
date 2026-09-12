@@ -1,0 +1,72 @@
+<div id="ocp-mechanical">
+  <h2>OCP S1 · mehanički koncept</h2>
+  <div class="text-small">REV A / mm / telo Ø90 / prirubnica Ø112 / visina 388</div>
+  <div class="viz-controls" style="margin-top:12px">
+    <label class="form-label">Prikaz <select class="form-select" id="ocp-mode"><option value="assembly">Sklop</option><option value="exploded">Rastavljen sklop</option><option value="section">Presek kućišta</option><option value="front">Prednji nacrt</option><option value="top">Gornji nacrt</option></select></label>
+    <label class="form-label">Razmicanje <input class="form-range" id="ocp-spread" aria-label="Razmicanje delova" type="range" min="0" max="100" value="0"></label>
+    <label class="form-check"><input class="form-check-input" id="ocp-wire" type="checkbox"><span class="form-check-label">Žičani prikaz</span></label>
+  </div>
+  <canvas id="ocp-canvas" style="width:100%;height:560px;display:block;touch-action:none" role="img" aria-label="Rotirajuća 3D maketa potopljene sonde. Kućište, poklopci, zaptivke, četiri senzora, zaštitna korpa, elektronika i nosač. Povucite za rotaciju."></canvas>
+  <div class="viz-row"><button type="button" class="btn" id="ocp-left">Rotiraj ←</button><button type="button" class="btn" id="ocp-right">Rotiraj →</button><button type="button" class="btn" id="ocp-up">Nagni ↑</button><button type="button" class="btn" id="ocp-down">Nagni ↓</button></div>
+  <div class="text-small" id="ocp-detail" aria-live="polite" style="margin:12px 0">Izaberite komponentu za detalj · prevucite za rotaciju.</div>
+  <label class="form-label">Komponenta <select class="form-select" id="ocp-part"><option value="all">Kompletan sklop</option><option value="body">01 · Kućište</option><option value="top">02 / 04 / 05 · Gornji poklopac i uvodnik</option><option value="bottom">03 / 04 · Donja ploča i zaptivke</option><option value="rods">06 · Vezne šipke</option><option value="mount">07 · Montažni nosač</option><option value="electronics">08 · Elektronika</option><option value="probes">09–12 · Četiri merne sonde</option><option value="guard">13 · Zaštitna korpa</option></select></label>
+  <div class="text-small" style="margin-top:12px">Koncept za uzgajalište · priključci sondi su rezervisani prostori · bez potvrđene dubine rada.</div>
+</div>
+<script>
+(()=>{
+const root=document.getElementById('ocp-mechanical'),q=s=>root.querySelector(s),canvas=q('#ocp-canvas'),ctx=canvas.getContext('2d');
+const parts=/*GEOMETRY*/[];
+let yaw=-.65,pitch=.24,spread=0,mode='assembly',wire=false,selected='all',W=700,H=560,facesHit=[],drag=null,moved=false;
+const shifts={body:[0,0,0],top:[0,0,95],bottom:[0,0,-60],probes:[0,0,-105],guard:[0,0,-180],mount:[0,100,0],electronics:[110,0,0],rods:[0,0,0]};
+const detail={body:'01 · Cev Ø90 / Ø82 × 210 mm · predloženo metalno kućište',top:'02 / 04 / 05 · Poklopac, dva radijalna zaptivača i kablovski uvodnik',bottom:'03 / 04 · Ploča sa 4 prolaza Ø18 mm; adapteri prema izabranim sondama',rods:'06 · Četiri vezne šipke M4; navoj je pojednostavljen',mount:'07 · Obujmice i zadnja montažna ploča; koncept pričvršćivanja',electronics:'08 · Ploča 48 × 150 mm, vođice i rezervisan prostor za komponente',probes:'09–12 · Optički kiseonik, pH, provodljivost i temperatura; geometrijski omotači',guard:'13 · Otvorena korpa Ø108 mm, osam rebara; zaštita mernih vrhova'};
+function palette(){let s=getComputedStyle(root);return {fg:s.getPropertyValue('--foreground').trim()||'CanvasText',bg:s.getPropertyValue('--background').trim()||'Canvas',muted:s.getPropertyValue('--muted-foreground').trim()||'GrayText',border:s.getPropertyValue('--border').trim()||'GrayText'};}
+function rotate(v){let [x,y,z]=v;let a=x*Math.cos(yaw)-y*Math.sin(yaw),b=x*Math.sin(yaw)+y*Math.cos(yaw);return [a,b*Math.sin(pitch)+(z-55)*Math.cos(pitch),b*Math.cos(pitch)-(z-55)*Math.sin(pitch)];}
+function draw(){
+ const c=palette();ctx.clearRect(0,0,W,H);const ex=spread/100;
+ const scale=Math.min((H-100)/(440+ex*220),(W-70)/(320+ex*120));
+ const project=v=>{let p=rotate(v);return [W/2+p[0]*scale,H/2-p[1]*scale,p[2]];};
+ ctx.strokeStyle=c.border;ctx.globalAlpha=.18;ctx.lineWidth=.5;
+ for(let x=16;x<W;x+=24){ctx.beginPath();ctx.moveTo(x,20);ctx.lineTo(x,H-25);ctx.stroke();}
+ for(let y=20;y<H-25;y+=24){ctx.beginPath();ctx.moveTo(16,y);ctx.lineTo(W-16,y);ctx.stroke();}ctx.globalAlpha=1;
+ let fs=[];
+ parts.forEach((p,pi)=>{
+   if(selected!=='all'&&p.g!==selected)return;
+   if(p.internal&&mode!=='section'&&ex===0&&selected==='all')return;
+   let shift=shifts[p.g].map(v=>v*ex),world=p.v.map(v=>v.map((a,i)=>a+shift[i]));
+   let pv=world.map(project);
+   p.f.forEach(f=>{
+     if(mode==='section'&&['body','top','bottom'].includes(p.g)&&f.reduce((s,i)=>s+p.v[i][1],0)/f.length<0)return;
+     let ps=f.map(i=>pv[i]);
+     let a=ps[0],b=ps[1],d=ps[2],normal=(b[0]-a[0])*(d[1]-a[1])-(b[1]-a[1])*(d[0]-a[0]);
+     if(Math.abs(normal)<.04)return;
+     fs.push({ps,z:ps.reduce((s,a)=>s+a[2],0)/ps.length,p,pi,f});
+   });
+ });
+ fs.sort((a,b)=>b.z-a.z);facesHit=[];
+ fs.forEach(f=>{
+   const path=new Path2D();f.ps.forEach((p,i)=>i?path.lineTo(p[0],p[1]):path.moveTo(p[0],p[1]));path.closePath();
+   const v=f.f.map(i=>f.p.v[i]);let u=v[1].map((x,i)=>x-v[0][i]),w=v[2].map((x,i)=>x-v[0][i]);
+   let n=[u[1]*w[2]-u[2]*w[1],u[2]*w[0]-u[0]*w[2],u[0]*w[1]-u[1]*w[0]],len=Math.hypot(...n)||1;
+   let shade=.14+.25*Math.abs((n[0]*.4+n[1]*-.5+n[2]*.8)/len)+(1-f.p.t)*.3;
+   if(!wire){ctx.fillStyle=c.bg;ctx.fill(path);ctx.globalAlpha=shade;ctx.fillStyle=c.fg;ctx.fill(path);ctx.globalAlpha=1;}
+   ctx.strokeStyle=c.fg;ctx.globalAlpha=wire?.35:.4;ctx.lineWidth=.45;ctx.stroke(path);ctx.globalAlpha=1;
+   facesHit.push({path,p:f.p});
+ });
+ ctx.fillStyle=c.fg;ctx.font='12px ui-monospace, monospace';ctx.fillText('OCP / S1',18,34);ctx.fillText(({assembly:'ISOMETRIJA',exploded:'RASTAVLJEN SKLOP',section:'PRESEK A–A',front:'POGLED SPREDA',top:'POGLED ODOZGO'})[mode],18,52);
+ ctx.fillStyle=c.muted;ctx.fillText('REV A · mm',18,H-12);
+ if(mode==='front'&&ex===0&&selected==='all'){
+   let a=project([-78,0,-130]),b=project([-78,0,258]);ctx.strokeStyle=c.fg;ctx.beginPath();ctx.moveTo(a[0],a[1]);ctx.lineTo(b[0],b[1]);for(let p of [a,b]){ctx.moveTo(p[0]-5,p[1]);ctx.lineTo(p[0]+5,p[1]);}ctx.stroke();ctx.save();ctx.translate(a[0]-8,(a[1]+b[1])/2);ctx.rotate(-Math.PI/2);ctx.fillStyle=c.fg;ctx.fillText('388',-12,0);ctx.restore();
+ }
+ if(mode==='top'&&selected==='all'){ctx.fillStyle=c.fg;ctx.fillText('Ø112 prirubnica',18,74);}
+}
+function resize(){W=canvas.clientWidth;H=W<420?480:560;canvas.style.height=H+'px';let d=window.devicePixelRatio||1;canvas.width=W*d;canvas.height=H*d;ctx.setTransform(d,0,0,d,0,0);draw();}
+q('#ocp-mode').onchange=e=>{mode=e.target.value;spread=mode==='exploded'?85:0;q('#ocp-spread').value=spread;yaw=mode==='front'||mode==='top'?0:-.65;pitch=mode==='top'?Math.PI/2:mode==='front'?0:.24;draw();};
+q('#ocp-spread').oninput=e=>{spread=+e.target.value;draw();};q('#ocp-wire').onchange=e=>{wire=e.target.checked;draw();};
+q('#ocp-part').onchange=e=>{selected=e.target.value;q('#ocp-detail').textContent=detail[selected]||'Kompletan sklop · prevucite za rotaciju.';draw();};
+for(let [id,dy,dp]of [['left',-.2,0],['right',.2,0],['up',0,.15],['down',0,-.15]])q('#ocp-'+id).onclick=()=>{yaw+=dy;pitch+=dp;draw();};
+canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];moved=false;canvas.setPointerCapture(e.pointerId);};
+canvas.onpointermove=e=>{if(!drag)return;let dx=e.clientX-drag[0],dy=e.clientY-drag[1];if(Math.abs(dx)+Math.abs(dy)>2)moved=true;yaw+=dx*.008;pitch=Math.max(-1.5,Math.min(1.57,pitch+dy*.008));drag=[e.clientX,e.clientY];draw();};
+canvas.onpointerup=e=>{if(!moved){let r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;const d=window.devicePixelRatio||1;let hit=[...facesHit].reverse().find(f=>ctx.isPointInPath(f.path,x*d,y*d));if(hit)q('#ocp-detail').textContent=hit.p.name;}drag=null;};canvas.onpointercancel=()=>drag=null;
+new ResizeObserver(resize).observe(canvas);new MutationObserver(draw).observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});resize();
+})();
+</script>

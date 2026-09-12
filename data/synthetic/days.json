@@ -1,0 +1,1442 @@
+[
+  {
+    "date": "2026-03-17",
+    "index": 0,
+    "supply_pressure": -0.0128,
+    "ocean_anomaly": -0.0326,
+    "activity_disruption": -0.007,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-18",
+    "index": 1,
+    "supply_pressure": -0.0282,
+    "ocean_anomaly": 0.0881,
+    "activity_disruption": 0.0177,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-19",
+    "index": 2,
+    "supply_pressure": 0,
+    "ocean_anomaly": 0.0682,
+    "activity_disruption": 0.0654,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-20",
+    "index": 3,
+    "supply_pressure": 0.0702,
+    "ocean_anomaly": 0.0882,
+    "activity_disruption": 0.1345,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-21",
+    "index": 4,
+    "supply_pressure": 0.1245,
+    "ocean_anomaly": 0.1521,
+    "activity_disruption": 0.1922,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-22",
+    "index": 5,
+    "supply_pressure": 0.0866,
+    "ocean_anomaly": 0.2175,
+    "activity_disruption": 0.1956,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-23",
+    "index": 6,
+    "supply_pressure": 0.1116,
+    "ocean_anomaly": 0.2985,
+    "activity_disruption": 0.2297,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-24",
+    "index": 7,
+    "supply_pressure": 0.1549,
+    "ocean_anomaly": 0.2079,
+    "activity_disruption": 0.2691,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-25",
+    "index": 8,
+    "supply_pressure": 0.2214,
+    "ocean_anomaly": 0.3399,
+    "activity_disruption": 0.3162,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-26",
+    "index": 9,
+    "supply_pressure": 0.2219,
+    "ocean_anomaly": 0.2669,
+    "activity_disruption": 0.3215,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-27",
+    "index": 10,
+    "supply_pressure": 0.2397,
+    "ocean_anomaly": 0.4033,
+    "activity_disruption": 0.3309,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-28",
+    "index": 11,
+    "supply_pressure": 0.227,
+    "ocean_anomaly": 0.3308,
+    "activity_disruption": 0.318,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-29",
+    "index": 12,
+    "supply_pressure": 0.2143,
+    "ocean_anomaly": 0.3933,
+    "activity_disruption": 0.2997,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-30",
+    "index": 13,
+    "supply_pressure": 0.204,
+    "ocean_anomaly": 0.363,
+    "activity_disruption": 0.2777,
+    "synthetic": true
+  },
+  {
+    "date": "2026-03-31",
+    "index": 14,
+    "supply_pressure": 0.1435,
+    "ocean_anomaly": 0.4202,
+    "activity_disruption": 0.2235,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-01",
+    "index": 15,
+    "supply_pressure": 0.1102,
+    "ocean_anomaly": 0.4191,
+    "activity_disruption": 0.1803,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-02",
+    "index": 16,
+    "supply_pressure": 0.1499,
+    "ocean_anomaly": 0.4652,
+    "activity_disruption": 0.1739,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-03",
+    "index": 17,
+    "supply_pressure": 0.1115,
+    "ocean_anomaly": 0.4407,
+    "activity_disruption": 0.122,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-04",
+    "index": 18,
+    "supply_pressure": 0.0999,
+    "ocean_anomaly": 0.4605,
+    "activity_disruption": 0.0832,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-05",
+    "index": 19,
+    "supply_pressure": 0.0475,
+    "ocean_anomaly": 0.3734,
+    "activity_disruption": 0.0211,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-06",
+    "index": 20,
+    "supply_pressure": 0.0083,
+    "ocean_anomaly": 0.5016,
+    "activity_disruption": -0.0336,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-07",
+    "index": 21,
+    "supply_pressure": 0.0051,
+    "ocean_anomaly": 0.4968,
+    "activity_disruption": -0.0673,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-08",
+    "index": 22,
+    "supply_pressure": -0.0383,
+    "ocean_anomaly": 0.3463,
+    "activity_disruption": -0.1213,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-09",
+    "index": 23,
+    "supply_pressure": -0.047,
+    "ocean_anomaly": 0.3856,
+    "activity_disruption": -0.1534,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-10",
+    "index": 24,
+    "supply_pressure": -0.0746,
+    "ocean_anomaly": 0.3892,
+    "activity_disruption": -0.1924,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-11",
+    "index": 25,
+    "supply_pressure": -0.0021,
+    "ocean_anomaly": 0.3659,
+    "activity_disruption": -0.1721,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-12",
+    "index": 26,
+    "supply_pressure": 0.0061,
+    "ocean_anomaly": 0.3446,
+    "activity_disruption": -0.1824,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-13",
+    "index": 27,
+    "supply_pressure": 0.0458,
+    "ocean_anomaly": 0.2114,
+    "activity_disruption": -0.1703,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-14",
+    "index": 28,
+    "supply_pressure": 0.0869,
+    "ocean_anomaly": 0.2999,
+    "activity_disruption": -0.152,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-15",
+    "index": 29,
+    "supply_pressure": 0.0592,
+    "ocean_anomaly": 0.2161,
+    "activity_disruption": -0.166,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-16",
+    "index": 30,
+    "supply_pressure": 0.0702,
+    "ocean_anomaly": 0.1469,
+    "activity_disruption": -0.1532,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-17",
+    "index": 31,
+    "supply_pressure": 0.0526,
+    "ocean_anomaly": 0.2154,
+    "activity_disruption": -0.1508,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-18",
+    "index": 32,
+    "supply_pressure": 0.0138,
+    "ocean_anomaly": 0.0304,
+    "activity_disruption": -0.1551,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-19",
+    "index": 33,
+    "supply_pressure": -0.0353,
+    "ocean_anomaly": 0.1165,
+    "activity_disruption": -0.1605,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-20",
+    "index": 34,
+    "supply_pressure": -0.0762,
+    "ocean_anomaly": -0.006,
+    "activity_disruption": -0.1575,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-21",
+    "index": 35,
+    "supply_pressure": -0.1526,
+    "ocean_anomaly": -0.0147,
+    "activity_disruption": -0.1709,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-22",
+    "index": 36,
+    "supply_pressure": -0.2221,
+    "ocean_anomaly": -0.1114,
+    "activity_disruption": -0.178,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-23",
+    "index": 37,
+    "supply_pressure": -0.1641,
+    "ocean_anomaly": -0.1252,
+    "activity_disruption": -0.1135,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-24",
+    "index": 38,
+    "supply_pressure": -0.1807,
+    "ocean_anomaly": -0.1017,
+    "activity_disruption": -0.0894,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-25",
+    "index": 39,
+    "supply_pressure": -0.1412,
+    "ocean_anomaly": -0.2315,
+    "activity_disruption": -0.0346,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-26",
+    "index": 40,
+    "supply_pressure": -0.2045,
+    "ocean_anomaly": -0.1746,
+    "activity_disruption": -0.0376,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-27",
+    "index": 41,
+    "supply_pressure": -0.2472,
+    "ocean_anomaly": -0.2526,
+    "activity_disruption": -0.0314,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-28",
+    "index": 42,
+    "supply_pressure": -0.1824,
+    "ocean_anomaly": -0.3384,
+    "activity_disruption": 0.0311,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-29",
+    "index": 43,
+    "supply_pressure": -0.1933,
+    "ocean_anomaly": -0.3698,
+    "activity_disruption": 0.0483,
+    "synthetic": true
+  },
+  {
+    "date": "2026-04-30",
+    "index": 44,
+    "supply_pressure": -0.1887,
+    "ocean_anomaly": -0.3357,
+    "activity_disruption": 0.0697,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-01",
+    "index": 45,
+    "supply_pressure": -0.1335,
+    "ocean_anomaly": -0.3796,
+    "activity_disruption": 0.1142,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-02",
+    "index": 46,
+    "supply_pressure": -0.1334,
+    "ocean_anomaly": -0.4601,
+    "activity_disruption": 0.1231,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-03",
+    "index": 47,
+    "supply_pressure": -0.0992,
+    "ocean_anomaly": -0.3668,
+    "activity_disruption": 0.1454,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-04",
+    "index": 48,
+    "supply_pressure": -0.1067,
+    "ocean_anomaly": -0.4732,
+    "activity_disruption": 0.1392,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-05",
+    "index": 49,
+    "supply_pressure": -0.1315,
+    "ocean_anomaly": -0.4868,
+    "activity_disruption": 0.118,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-06",
+    "index": 50,
+    "supply_pressure": -0.0665,
+    "ocean_anomaly": -0.3942,
+    "activity_disruption": 0.1409,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-07",
+    "index": 51,
+    "supply_pressure": 0.0121,
+    "ocean_anomaly": -0.4605,
+    "activity_disruption": 0.1663,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-08",
+    "index": 52,
+    "supply_pressure": 0.0596,
+    "ocean_anomaly": -0.444,
+    "activity_disruption": 0.1703,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-09",
+    "index": 53,
+    "supply_pressure": 0.0495,
+    "ocean_anomaly": -0.3959,
+    "activity_disruption": 0.1387,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-10",
+    "index": 54,
+    "supply_pressure": 0.1156,
+    "ocean_anomaly": -0.3921,
+    "activity_disruption": 0.146,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-11",
+    "index": 55,
+    "supply_pressure": 0.1354,
+    "ocean_anomaly": -0.4644,
+    "activity_disruption": 0.1255,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-12",
+    "index": 56,
+    "supply_pressure": 0.1524,
+    "ocean_anomaly": -0.4626,
+    "activity_disruption": 0.1021,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-13",
+    "index": 57,
+    "supply_pressure": 0.1047,
+    "ocean_anomaly": -0.3709,
+    "activity_disruption": 0.0426,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-14",
+    "index": 58,
+    "supply_pressure": 0.102,
+    "ocean_anomaly": -0.3719,
+    "activity_disruption": 0.0082,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-15",
+    "index": 59,
+    "supply_pressure": 0.0547,
+    "ocean_anomaly": -0.4206,
+    "activity_disruption": -0.0494,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-16",
+    "index": 60,
+    "supply_pressure": 0.0257,
+    "ocean_anomaly": -0.3819,
+    "activity_disruption": -0.0947,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-17",
+    "index": 61,
+    "supply_pressure": 0.0308,
+    "ocean_anomaly": -0.2471,
+    "activity_disruption": -0.1182,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-18",
+    "index": 62,
+    "supply_pressure": 0.0743,
+    "ocean_anomaly": -0.263,
+    "activity_disruption": -0.1169,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-19",
+    "index": 63,
+    "supply_pressure": 0.0954,
+    "ocean_anomaly": -0.2292,
+    "activity_disruption": -0.1235,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-20",
+    "index": 64,
+    "supply_pressure": 0.0697,
+    "ocean_anomaly": -0.1273,
+    "activity_disruption": -0.151,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-21",
+    "index": 65,
+    "supply_pressure": 0.1429,
+    "ocean_anomaly": -0.2365,
+    "activity_disruption": -0.1188,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-22",
+    "index": 66,
+    "supply_pressure": 0.1628,
+    "ocean_anomaly": -0.1529,
+    "activity_disruption": -0.1105,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-23",
+    "index": 67,
+    "supply_pressure": 0.1508,
+    "ocean_anomaly": -0.0552,
+    "activity_disruption": -0.1141,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-24",
+    "index": 68,
+    "supply_pressure": 0.0975,
+    "ocean_anomaly": -0.0816,
+    "activity_disruption": -0.1351,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-25",
+    "index": 69,
+    "supply_pressure": 0.1153,
+    "ocean_anomaly": 0.0392,
+    "activity_disruption": -0.1117,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-26",
+    "index": 70,
+    "supply_pressure": 0.1785,
+    "ocean_anomaly": 0.0629,
+    "activity_disruption": -0.0584,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-27",
+    "index": 71,
+    "supply_pressure": 0.2339,
+    "ocean_anomaly": 0.1373,
+    "activity_disruption": -0.0052,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-28",
+    "index": 72,
+    "supply_pressure": 0.351,
+    "ocean_anomaly": 0.077,
+    "activity_disruption": 0.0857,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-29",
+    "index": 73,
+    "supply_pressure": 0.4429,
+    "ocean_anomaly": 0.0878,
+    "activity_disruption": 0.1657,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-30",
+    "index": 74,
+    "supply_pressure": 0.4871,
+    "ocean_anomaly": 0.1802,
+    "activity_disruption": 0.2217,
+    "synthetic": true
+  },
+  {
+    "date": "2026-05-31",
+    "index": 75,
+    "supply_pressure": 0.5087,
+    "ocean_anomaly": 0.2735,
+    "activity_disruption": 0.2665,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-01",
+    "index": 76,
+    "supply_pressure": 0.5271,
+    "ocean_anomaly": 0.3339,
+    "activity_disruption": 0.3099,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-02",
+    "index": 77,
+    "supply_pressure": 0.5033,
+    "ocean_anomaly": 0.3587,
+    "activity_disruption": 0.3296,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-03",
+    "index": 78,
+    "supply_pressure": 0.4706,
+    "ocean_anomaly": 0.2807,
+    "activity_disruption": 0.3429,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-04",
+    "index": 79,
+    "supply_pressure": 0.4563,
+    "ocean_anomaly": 0.2778,
+    "activity_disruption": 0.3639,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-05",
+    "index": 80,
+    "supply_pressure": 0.4708,
+    "ocean_anomaly": 0.3951,
+    "activity_disruption": 0.3977,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-06",
+    "index": 81,
+    "supply_pressure": 0.4778,
+    "ocean_anomaly": 0.4269,
+    "activity_disruption": 0.4235,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-07",
+    "index": 82,
+    "supply_pressure": 0.4519,
+    "ocean_anomaly": 0.4748,
+    "activity_disruption": 0.4268,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-08",
+    "index": 83,
+    "supply_pressure": 0.4547,
+    "ocean_anomaly": 0.4562,
+    "activity_disruption": 0.4409,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-09",
+    "index": 84,
+    "supply_pressure": 0.5168,
+    "ocean_anomaly": 0.3896,
+    "activity_disruption": 0.4824,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-10",
+    "index": 85,
+    "supply_pressure": 0.4181,
+    "ocean_anomaly": 0.4474,
+    "activity_disruption": 0.4299,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-11",
+    "index": 86,
+    "supply_pressure": 0.3257,
+    "ocean_anomaly": 0.39,
+    "activity_disruption": 0.3753,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-12",
+    "index": 87,
+    "supply_pressure": 0.2816,
+    "ocean_anomaly": 0.4995,
+    "activity_disruption": 0.3418,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-13",
+    "index": 88,
+    "supply_pressure": 0.1712,
+    "ocean_anomaly": 0.4191,
+    "activity_disruption": 0.2668,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-14",
+    "index": 89,
+    "supply_pressure": 0.119,
+    "ocean_anomaly": 0.4825,
+    "activity_disruption": 0.2189,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-15",
+    "index": 90,
+    "supply_pressure": 0.0506,
+    "ocean_anomaly": 0.3555,
+    "activity_disruption": 0.1579,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-16",
+    "index": 91,
+    "supply_pressure": 0.0382,
+    "ocean_anomaly": 0.4078,
+    "activity_disruption": 0.1241,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-17",
+    "index": 92,
+    "supply_pressure": 0.0105,
+    "ocean_anomaly": 0.4532,
+    "activity_disruption": 0.0789,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-18",
+    "index": 93,
+    "supply_pressure": 0.0449,
+    "ocean_anomaly": 0.3987,
+    "activity_disruption": 0.066,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-19",
+    "index": 94,
+    "supply_pressure": -0.0528,
+    "ocean_anomaly": 0.3837,
+    "activity_disruption": -0.0208,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-20",
+    "index": 95,
+    "supply_pressure": -0.1008,
+    "ocean_anomaly": 0.3358,
+    "activity_disruption": -0.0805,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-21",
+    "index": 96,
+    "supply_pressure": -0.0444,
+    "ocean_anomaly": 0.2706,
+    "activity_disruption": -0.082,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-22",
+    "index": 97,
+    "supply_pressure": -0.018,
+    "ocean_anomaly": 0.1852,
+    "activity_disruption": -0.0984,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-23",
+    "index": 98,
+    "supply_pressure": -0.078,
+    "ocean_anomaly": 0.2462,
+    "activity_disruption": -0.16,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-24",
+    "index": 99,
+    "supply_pressure": -0.0116,
+    "ocean_anomaly": 0.2592,
+    "activity_disruption": -0.1487,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-25",
+    "index": 100,
+    "supply_pressure": 0.0486,
+    "ocean_anomaly": 0.1961,
+    "activity_disruption": -0.1369,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-26",
+    "index": 101,
+    "supply_pressure": 0.005,
+    "ocean_anomaly": 0.0931,
+    "activity_disruption": -0.1777,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-27",
+    "index": 102,
+    "supply_pressure": 0.0033,
+    "ocean_anomaly": 0.0465,
+    "activity_disruption": -0.1905,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-28",
+    "index": 103,
+    "supply_pressure": 0.0108,
+    "ocean_anomaly": 0.0618,
+    "activity_disruption": -0.1928,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-29",
+    "index": 104,
+    "supply_pressure": 0.0007,
+    "ocean_anomaly": -0.066,
+    "activity_disruption": -0.1993,
+    "synthetic": true
+  },
+  {
+    "date": "2026-06-30",
+    "index": 105,
+    "supply_pressure": -0.0883,
+    "ocean_anomaly": -0.0044,
+    "activity_disruption": -0.2437,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-01",
+    "index": 106,
+    "supply_pressure": -0.1957,
+    "ocean_anomaly": -0.0611,
+    "activity_disruption": -0.2928,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-02",
+    "index": 107,
+    "supply_pressure": -0.3076,
+    "ocean_anomaly": -0.1064,
+    "activity_disruption": -0.3392,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-03",
+    "index": 108,
+    "supply_pressure": -0.3657,
+    "ocean_anomaly": -0.1532,
+    "activity_disruption": -0.3513,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-04",
+    "index": 109,
+    "supply_pressure": -0.3225,
+    "ocean_anomaly": -0.2306,
+    "activity_disruption": -0.3036,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-05",
+    "index": 110,
+    "supply_pressure": -0.3035,
+    "ocean_anomaly": -0.2568,
+    "activity_disruption": -0.2656,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-06",
+    "index": 111,
+    "supply_pressure": -0.3748,
+    "ocean_anomaly": -0.2488,
+    "activity_disruption": -0.2746,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-07",
+    "index": 112,
+    "supply_pressure": -0.3913,
+    "ocean_anomaly": -0.2681,
+    "activity_disruption": -0.2516,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-08",
+    "index": 113,
+    "supply_pressure": -0.365,
+    "ocean_anomaly": -0.3517,
+    "activity_disruption": -0.204,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-09",
+    "index": 114,
+    "supply_pressure": -0.385,
+    "ocean_anomaly": -0.3431,
+    "activity_disruption": -0.1818,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-10",
+    "index": 115,
+    "supply_pressure": -0.3896,
+    "ocean_anomaly": -0.371,
+    "activity_disruption": -0.1519,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-11",
+    "index": 116,
+    "supply_pressure": -0.4033,
+    "ocean_anomaly": -0.4063,
+    "activity_disruption": -0.1288,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-12",
+    "index": 117,
+    "supply_pressure": -0.4385,
+    "ocean_anomaly": -0.3521,
+    "activity_disruption": -0.12,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-13",
+    "index": 118,
+    "supply_pressure": -0.3805,
+    "ocean_anomaly": -0.4863,
+    "activity_disruption": -0.0635,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-14",
+    "index": 119,
+    "supply_pressure": -0.3447,
+    "ocean_anomaly": -0.5071,
+    "activity_disruption": -0.0231,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-15",
+    "index": 120,
+    "supply_pressure": -0.2229,
+    "ocean_anomaly": -0.4361,
+    "activity_disruption": 0.06,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-16",
+    "index": 121,
+    "supply_pressure": -0.1175,
+    "ocean_anomaly": -0.4366,
+    "activity_disruption": 0.129,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-17",
+    "index": 122,
+    "supply_pressure": -0.0607,
+    "ocean_anomaly": -0.4102,
+    "activity_disruption": 0.1659,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-18",
+    "index": 123,
+    "supply_pressure": -0.0029,
+    "ocean_anomaly": -0.473,
+    "activity_disruption": 0.1978,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-19",
+    "index": 124,
+    "supply_pressure": 0.0227,
+    "ocean_anomaly": -0.431,
+    "activity_disruption": 0.2065,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-20",
+    "index": 125,
+    "supply_pressure": 0.0117,
+    "ocean_anomaly": -0.4603,
+    "activity_disruption": 0.1896,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-21",
+    "index": 126,
+    "supply_pressure": -0.0404,
+    "ocean_anomaly": -0.3419,
+    "activity_disruption": 0.1451,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-22",
+    "index": 127,
+    "supply_pressure": -0.0404,
+    "ocean_anomaly": -0.3976,
+    "activity_disruption": 0.1246,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-23",
+    "index": 128,
+    "supply_pressure": -0.0256,
+    "ocean_anomaly": -0.3543,
+    "activity_disruption": 0.1082,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-24",
+    "index": 129,
+    "supply_pressure": -0.0871,
+    "ocean_anomaly": -0.2857,
+    "activity_disruption": 0.0464,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-25",
+    "index": 130,
+    "supply_pressure": -0.1433,
+    "ocean_anomaly": -0.2603,
+    "activity_disruption": -0.0151,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-26",
+    "index": 131,
+    "supply_pressure": -0.1772,
+    "ocean_anomaly": -0.2307,
+    "activity_disruption": -0.066,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-27",
+    "index": 132,
+    "supply_pressure": -0.2313,
+    "ocean_anomaly": -0.2956,
+    "activity_disruption": -0.129,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-28",
+    "index": 133,
+    "supply_pressure": -0.2519,
+    "ocean_anomaly": -0.1668,
+    "activity_disruption": -0.1735,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-29",
+    "index": 134,
+    "supply_pressure": -0.2114,
+    "ocean_anomaly": -0.1461,
+    "activity_disruption": -0.1834,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-30",
+    "index": 135,
+    "supply_pressure": -0.122,
+    "ocean_anomaly": -0.1786,
+    "activity_disruption": -0.1645,
+    "synthetic": true
+  },
+  {
+    "date": "2026-07-31",
+    "index": 136,
+    "supply_pressure": 0.0454,
+    "ocean_anomaly": -0.0602,
+    "activity_disruption": -0.1001,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-01",
+    "index": 137,
+    "supply_pressure": 0.1106,
+    "ocean_anomaly": -0.1103,
+    "activity_disruption": -0.0884,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-02",
+    "index": 138,
+    "supply_pressure": 0.1812,
+    "ocean_anomaly": -0.0345,
+    "activity_disruption": -0.0696,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-03",
+    "index": 139,
+    "supply_pressure": 0.2265,
+    "ocean_anomaly": 0.0338,
+    "activity_disruption": -0.06,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-04",
+    "index": 140,
+    "supply_pressure": 0.2845,
+    "ocean_anomaly": 0.0902,
+    "activity_disruption": -0.0383,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-05",
+    "index": 141,
+    "supply_pressure": 0.3145,
+    "ocean_anomaly": 0.1352,
+    "activity_disruption": -0.0267,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-06",
+    "index": 142,
+    "supply_pressure": 0.4268,
+    "ocean_anomaly": 0.1297,
+    "activity_disruption": 0.0358,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-07",
+    "index": 143,
+    "supply_pressure": 0.428,
+    "ocean_anomaly": 0.2227,
+    "activity_disruption": 0.0427,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-08",
+    "index": 144,
+    "supply_pressure": 0.4492,
+    "ocean_anomaly": 0.2431,
+    "activity_disruption": 0.066,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-09",
+    "index": 145,
+    "supply_pressure": 0.4875,
+    "ocean_anomaly": 0.3134,
+    "activity_disruption": 0.1036,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-10",
+    "index": 146,
+    "supply_pressure": 0.5696,
+    "ocean_anomaly": 0.2348,
+    "activity_disruption": 0.1699,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-11",
+    "index": 147,
+    "supply_pressure": 0.6484,
+    "ocean_anomaly": 0.2777,
+    "activity_disruption": 0.2383,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-12",
+    "index": 148,
+    "supply_pressure": 0.7329,
+    "ocean_anomaly": 0.3392,
+    "activity_disruption": 0.3132,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-13",
+    "index": 149,
+    "supply_pressure": 0.8029,
+    "ocean_anomaly": 0.3657,
+    "activity_disruption": 0.3826,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-14",
+    "index": 150,
+    "supply_pressure": 0.8127,
+    "ocean_anomaly": 0.3909,
+    "activity_disruption": 0.4205,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-15",
+    "index": 151,
+    "supply_pressure": 0.7802,
+    "ocean_anomaly": 0.3659,
+    "activity_disruption": 0.4359,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-16",
+    "index": 152,
+    "supply_pressure": 0.7719,
+    "ocean_anomaly": 0.4718,
+    "activity_disruption": 0.4644,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-17",
+    "index": 153,
+    "supply_pressure": 0.844,
+    "ocean_anomaly": 0.5083,
+    "activity_disruption": 0.536,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-18",
+    "index": 154,
+    "supply_pressure": 0.8755,
+    "ocean_anomaly": 0.4657,
+    "activity_disruption": 0.5833,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-19",
+    "index": 155,
+    "supply_pressure": 0.8648,
+    "ocean_anomaly": 0.5071,
+    "activity_disruption": 0.6045,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-20",
+    "index": 156,
+    "supply_pressure": 0.9238,
+    "ocean_anomaly": 0.4834,
+    "activity_disruption": 0.6606,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-21",
+    "index": 157,
+    "supply_pressure": 0.9623,
+    "ocean_anomaly": 0.3808,
+    "activity_disruption": 0.7011,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-22",
+    "index": 158,
+    "supply_pressure": 0.8159,
+    "ocean_anomaly": 0.4167,
+    "activity_disruption": 0.6352,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-23",
+    "index": 159,
+    "supply_pressure": 0.6634,
+    "ocean_anomaly": 0.4202,
+    "activity_disruption": 0.5607,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-24",
+    "index": 160,
+    "supply_pressure": 0.5533,
+    "ocean_anomaly": 0.3581,
+    "activity_disruption": 0.5042,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-25",
+    "index": 161,
+    "supply_pressure": 0.4689,
+    "ocean_anomaly": 0.4158,
+    "activity_disruption": 0.4562,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-26",
+    "index": 162,
+    "supply_pressure": 0.4909,
+    "ocean_anomaly": 0.3689,
+    "activity_disruption": 0.4613,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-27",
+    "index": 163,
+    "supply_pressure": 0.4858,
+    "ocean_anomaly": 0.3914,
+    "activity_disruption": 0.4461,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-28",
+    "index": 164,
+    "supply_pressure": 0.492,
+    "ocean_anomaly": 0.3599,
+    "activity_disruption": 0.4322,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-29",
+    "index": 165,
+    "supply_pressure": 0.4344,
+    "ocean_anomaly": 0.3295,
+    "activity_disruption": 0.3787,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-30",
+    "index": 166,
+    "supply_pressure": 0.3826,
+    "ocean_anomaly": 0.2888,
+    "activity_disruption": 0.3246,
+    "synthetic": true
+  },
+  {
+    "date": "2026-08-31",
+    "index": 167,
+    "supply_pressure": 0.3359,
+    "ocean_anomaly": 0.1618,
+    "activity_disruption": 0.2701,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-01",
+    "index": 168,
+    "supply_pressure": 0.2783,
+    "ocean_anomaly": 0.1672,
+    "activity_disruption": 0.2072,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-02",
+    "index": 169,
+    "supply_pressure": 0.3133,
+    "ocean_anomaly": 0.1328,
+    "activity_disruption": 0.1938,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-03",
+    "index": 170,
+    "supply_pressure": 0.2782,
+    "ocean_anomaly": 0.1538,
+    "activity_disruption": 0.1412,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-04",
+    "index": 171,
+    "supply_pressure": 0.2307,
+    "ocean_anomaly": 0.0372,
+    "activity_disruption": 0.0821,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-05",
+    "index": 172,
+    "supply_pressure": 0.2047,
+    "ocean_anomaly": 0.0026,
+    "activity_disruption": 0.0361,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-06",
+    "index": 173,
+    "supply_pressure": 0.153,
+    "ocean_anomaly": 0.0636,
+    "activity_disruption": -0.0219,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-07",
+    "index": 174,
+    "supply_pressure": 0.1884,
+    "ocean_anomaly": 0.018,
+    "activity_disruption": -0.0291,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-08",
+    "index": 175,
+    "supply_pressure": 0.1428,
+    "ocean_anomaly": -0.1316,
+    "activity_disruption": -0.0772,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-09",
+    "index": 176,
+    "supply_pressure": 0.0768,
+    "ocean_anomaly": -0.1405,
+    "activity_disruption": -0.1322,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-10",
+    "index": 177,
+    "supply_pressure": 0.1233,
+    "ocean_anomaly": -0.1094,
+    "activity_disruption": -0.1204,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-11",
+    "index": 178,
+    "supply_pressure": 0.1399,
+    "ocean_anomaly": -0.1755,
+    "activity_disruption": -0.1199,
+    "synthetic": true
+  },
+  {
+    "date": "2026-09-12",
+    "index": 179,
+    "supply_pressure": 0.0556,
+    "ocean_anomaly": -0.197,
+    "activity_disruption": -0.1694,
+    "synthetic": true
+  }
+]

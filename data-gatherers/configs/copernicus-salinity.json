@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "copernicus": {
+      "enabled": true,
+      "datasetId": "cmems_mod_glo_phy-so_anfc_0.083deg_P1D-m",
+      "variables": [
+        "so"
+      ],
+      "kind": "forecast",
+      "subset": {
+        "minimum_longitude": 75.9,
+        "maximum_longitude": 76.2,
+        "minimum_latitude": 9.6,
+        "maximum_latitude": 10.0,
+        "minimum_depth": 0,
+        "maximum_depth": 1,
+        "start_datetime": "{endDate}",
+        "end_datetime": "{endDate}"
+      },
+      "licenceRef": "https://marine.copernicus.eu/user-corner/service-commitments-and-licence",
+      "maxObservations": 10000
+    }
+  }
+}
